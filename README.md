@@ -26,3 +26,7 @@ This repository contains a simplified, beginner-friendly solution for **Module 2
 
 ---
 
+
+
+GOOGLE COLLAB
+https://colab.research.google.com/drive/18As9cbD6PHXjso4Iga-1dCrTkbWKC4wK?usp=sharing
