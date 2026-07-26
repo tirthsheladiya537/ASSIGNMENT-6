@@ -26,8 +26,3 @@ This repository contains a simplified, beginner-friendly solution for **Module 2
 
 ---
 
-## Google Colab Submission Guide
-
-1. **Upload Notebook**: Go to [Google Colab](https://colab.research.google.com/), click **File** -> **Upload notebook**, and upload `sales_forecasting_case_study.ipynb`.
-2. **Run Notebook**: Click **Runtime** -> **Run all** (`Ctrl + F9`).
-3. **Share Link**: Click **Share** (top right), change setting to **"Anyone with the link can view"**, and copy the link.
