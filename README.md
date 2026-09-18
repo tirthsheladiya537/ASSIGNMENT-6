@@ -158,53 +158,14 @@ Sales-Forecasting/
     └── train.csv
 ```
 
----
-
-##  How to Run the Project
-
-### Step 1
-
-Download the dataset from Kaggle.
-
-### Step 2
-
-Open the notebook in Google Colab.
-
-### Step 3
-
-Upload `train.csv`.
-
-### Step 4
-
-Run the cells from top to bottom.
-
-### Step 5
-
-Check the graphs, predictions, and evaluation scores.
+-
 
 ---
 
 ##  Google Colab
 
-Add your Google Colab link here:
+https://colab.research.google.com/drive/1h-cxkJqPEant8QvM8fCQpphCkq4uYmno?usp=sharing
 
-**[Open Google Colab Notebook](PASTE-YOUR-COLAB-LINK-HERE)**
-
-Make sure the Colab sharing option is:
-
-**Anyone with the link → Viewer**
-
----
-
-##  Student
-
-**Name:** Your Name
-
-**College:** L D Engineering College
-
-**Branch:** Computer Engineering
-
-**Module:** Module 26 - Sales Forecasting Case Study
 
 ---
 
