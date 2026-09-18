@@ -26,22 +26,7 @@ The objectives of this project are:
 
 ---
 
-##  Dataset
 
-The dataset used in this project is:
-
-**Store Item Demand Forecasting Dataset**
-
-Source: Kaggle
-
-The dataset contains:
-
-* `date` - Date of sales
-* `store` - Store number
-* `item` - Item number
-* `sales` - Number of items sold
-
-Dataset: https://www.kaggle.com/competitions/demand-forecasting-kernels-only/data
 
 ---
 
