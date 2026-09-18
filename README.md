@@ -1,32 +1,225 @@
-# Module 26 – Sales Forecasting Case Study (Simplified Solution)
+# 📊 Sales Forecasting Case Study
 
-## Project Overview
-This repository contains a simplified, beginner-friendly solution for **Module 26: Sales Forecasting Case Study**. It applies linear regression and random forest regression techniques to analyze, preprocess, and predict sales.
+## 📌 About the Project
 
----
+This is my **Module 26 - Sales Forecasting Case Study**.
 
-## Files Included
-- `sales_forecasting_case_study.ipynb`: Clean, step-by-step Jupyter Notebook.
-- `README.md`: Project summary and Google Colab submission guide.
+The main purpose of this project is to understand how historical sales data can be used to predict future sales.
 
----
-
-## Simplified 7-Step Workflow
-
-1. **Import & Load Data**: Import libraries (`pandas`, `numpy`, `matplotlib`, `scikit-learn`) and load sales dataset.
-2. **Exploratory Data Analysis (EDA)**: Inspect shape, missing values, and plot raw daily sales.
-3. **Data Preprocessing**:
-   - Fill missing values with forward fill (`ffill`).
-   - Convert `Date` column to `datetime`.
-   - Extract features: `Year`, `Month`, `Day`, `DayOfWeek`, `Is_Weekend`.
-4. **Train-Test Split**: 80/20 chronological split to avoid data leakage.
-5. **Model Building**: Train **Linear Regression** and **Random Forest Regressor**.
-6. **Model Evaluation**: Calculate **RMSE**, **MAE**, and **R² Score**, and plot **Actual vs Predicted Sales**.
-7. **Observations**: Clear bullet-point summary of key findings.
+I used a **Sales Forecasting dataset from Kaggle** and built a simple forecasting model using **Python and Linear Regression**.
 
 ---
 
+## 🎯 Objective
 
+The objectives of this project are:
 
-GOOGLE COLLAB
-https://colab.research.google.com/drive/18As9cbD6PHXjso4Iga-1dCrTkbWKC4wK?usp=sharing
+* Explore sales data
+* Check missing values
+* Convert dates into the correct format
+* Extract useful date features
+* Understand sales trends
+* Split data into training and testing data
+* Build a Linear Regression model
+* Predict sales
+* Evaluate the model
+
+---
+
+## 📂 Dataset
+
+The dataset used in this project is:
+
+**Store Item Demand Forecasting Dataset**
+
+Source: Kaggle
+
+The dataset contains:
+
+* `date` - Date of sales
+* `store` - Store number
+* `item` - Item number
+* `sales` - Number of items sold
+
+Dataset: https://www.kaggle.com/competitions/demand-forecasting-kernels-only/data
+
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Scikit-learn
+* Google Colab
+* Jupyter Notebook
+
+---
+
+## 🔄 Project Steps
+
+### 1. Import Dataset
+
+The Kaggle `train.csv` file is loaded using Pandas.
+
+### 2. Explore Data
+
+I checked:
+
+* Number of rows and columns
+* Column names
+* Data types
+* Missing values
+
+### 3. Data Preprocessing
+
+The date column was converted into datetime format.
+
+I extracted:
+
+* Year
+* Month
+* Day
+* Day of Week
+
+### 4. Data Visualization
+
+I created graphs to understand the sales trend over time.
+
+### 5. Training and Testing
+
+The data was divided into:
+
+* 80% Training Data
+* 20% Testing Data
+
+The split was done according to time order.
+
+### 6. Machine Learning Model
+
+I used **Linear Regression** to predict sales.
+
+### 7. Model Evaluation
+
+The model was evaluated using:
+
+* MAE
+* RMSE
+* R² Score
+
+### 8. Future Prediction
+
+The trained model was used to make a simple future sales forecast.
+
+---
+
+## 📈 Model
+
+### Linear Regression
+
+Linear Regression is a simple machine learning algorithm that finds a relationship between an input and an output.
+
+In this project:
+
+**Input:** Date/Time
+
+**Output:** Sales
+
+The model learns the sales trend from historical data and uses it to make predictions.
+
+---
+
+## 📊 Evaluation Metrics
+
+### MAE
+
+Mean Absolute Error tells us the average difference between actual and predicted sales.
+
+### RMSE
+
+Root Mean Squared Error measures prediction error and gives more importance to larger errors.
+
+### R² Score
+
+R² Score tells us how well the model explains the variation in the sales data.
+
+---
+
+## 📁 Project Files
+
+```text
+Sales-Forecasting/
+│
+├── Sales_Forecasting.ipynb
+├── README.md
+├── requirements.txt
+└── dataset/
+    └── train.csv
+```
+
+---
+
+## ▶️ How to Run the Project
+
+### Step 1
+
+Download the dataset from Kaggle.
+
+### Step 2
+
+Open the notebook in Google Colab.
+
+### Step 3
+
+Upload `train.csv`.
+
+### Step 4
+
+Run the cells from top to bottom.
+
+### Step 5
+
+Check the graphs, predictions, and evaluation scores.
+
+---
+
+## 🔗 Google Colab
+
+Add your Google Colab link here:
+
+**[Open Google Colab Notebook](PASTE-YOUR-COLAB-LINK-HERE)**
+
+Make sure the Colab sharing option is:
+
+**Anyone with the link → Viewer**
+
+---
+
+## 👨‍🎓 Student
+
+**Name:** Your Name
+
+**College:** L D Engineering College
+
+**Branch:** Computer Engineering
+
+**Module:** Module 26 - Sales Forecasting Case Study
+
+---
+
+## ✅ Conclusion
+
+This project helped me understand the basic process of sales forecasting.
+
+I learned how to:
+
+* Load a dataset
+* Clean data
+* Work with dates
+* Visualize sales
+* Train a machine learning model
+* Make predictions
+* Evaluate model performance
+
+This project is created for learning and academic purposes.
