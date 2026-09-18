@@ -1,6 +1,6 @@
-# 📊 Sales Forecasting Case Study
+# Sales Forecasting Case Study
 
-## 📌 About the Project
+##  About the Project
 
 This is my **Module 26 - Sales Forecasting Case Study**.
 
@@ -10,7 +10,7 @@ I used a **Sales Forecasting dataset from Kaggle** and built a simple forecastin
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 The objectives of this project are:
 
@@ -26,7 +26,7 @@ The objectives of this project are:
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 The dataset used in this project is:
 
@@ -57,7 +57,7 @@ Dataset: https://www.kaggle.com/competitions/demand-forecasting-kernels-only/dat
 
 ---
 
-## 🔄 Project Steps
+##  Project Steps
 
 ### 1. Import Dataset
 
@@ -114,7 +114,7 @@ The trained model was used to make a simple future sales forecast.
 
 ---
 
-## 📈 Model
+##  Model
 
 ### Linear Regression
 
@@ -130,7 +130,7 @@ The model learns the sales trend from historical data and uses it to make predic
 
 ---
 
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 
 ### MAE
 
@@ -146,7 +146,7 @@ R² Score tells us how well the model explains the variation in the sales data.
 
 ---
 
-## 📁 Project Files
+##  Project Files
 
 ```text
 Sales-Forecasting/
@@ -160,7 +160,7 @@ Sales-Forecasting/
 
 ---
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 
 ### Step 1
 
@@ -184,7 +184,7 @@ Check the graphs, predictions, and evaluation scores.
 
 ---
 
-## 🔗 Google Colab
+##  Google Colab
 
 Add your Google Colab link here:
 
@@ -196,7 +196,7 @@ Make sure the Colab sharing option is:
 
 ---
 
-## 👨‍🎓 Student
+##  Student
 
 **Name:** Your Name
 
@@ -208,7 +208,7 @@ Make sure the Colab sharing option is:
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 
 This project helped me understand the basic process of sales forecasting.
 
